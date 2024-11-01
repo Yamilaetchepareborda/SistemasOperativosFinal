@@ -16,9 +16,9 @@ while true; do
     read -p "Selecciona una opción: " opcion
 
     case $opcion in
-        1) ./ingresarUsuario.sh ;;  # Ejecuta el script para crear un usuario
-        2) ./verifActualiz.sh ;;  # Ejecuta el script de actualización
-        3) ./mostrarUso.sh ;;  # Mostrar informacion del uso del equipo y generar informe
+        1) ./crearUsuario.sh ;;  # Ejecuta el script para crear un usuario
+        2) ./actualizar.sh ;;  # Ejecuta el script de actualización
+        3) ./reporte.sh ;;  # Mostrar informacion del uso del equipo y generar informe
         4) echo "Saliendo..."; exit 0 ;;
         *) echo -e "${RED}Opción inválida. Intenta de nuevo.${NC}" ;;
     esac
