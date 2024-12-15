@@ -44,10 +44,14 @@ Al ejecutar ./menu.sh, verás el siguiente menú:
 diff
 Copiar código
 === MENÚ INTERACTIVO ===
-1) Crear un nuevo usuario
-2) Verificar e instalar actualizaciones
-3) Mostrar el uso de memoria y crear un reporte
-4) Salir
+1) Crear un nuevo usuario:
+Si el usuario no existe, puede ser creado.
+Modificar un usuario existente: Si el usuario ya existe, se puede modificar su contraseña y añadirlo a grupos adicionales.
+Modificar grupos: Si se elige modificar un usuario, se puede asignar a grupos existentes.
+Modificar la contraseña: Opción para cambiar la contraseña del usuario.
+3) Verificar e instalar actualizaciones
+4) Mostrar el uso de memoria y crear un reporte
+5) Salir
 Selecciona una opción:
 Opción 1: Ejecuta crearUsuario.sh para agregar o modificar un usuario.
 Opción 2: Ejecuta actualizar.sh para comprobar e instalar actualizaciones.
