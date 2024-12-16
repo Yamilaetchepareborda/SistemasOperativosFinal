@@ -6,8 +6,8 @@ listar_usuarios() {
     # Listamos todos los usuarios y los grupos a los que pertenecen
     while IFS=: read -r usuario _ _ _ _ _; do
         # Muestra los grupos del usuario usando id
-        echo -n "$usuario: "
-        groups $usuario | cut -d' ' -f2-
+        
+        groups $usuario 
     done < /etc/passwd
 }
 
